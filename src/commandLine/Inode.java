@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Inode<T>{
 
-	private T data = null;
+    private T data = null;
     private List<Inode> children = new ArrayList<>();
     private Inode parent = null;
     private char nodeType = 'd';
