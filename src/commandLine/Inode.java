@@ -3,7 +3,7 @@ package commandLine;
 import java.util.ArrayList;
 import java.util.List;
 
-/* Un arbol con un atributo mas que identifica si es un directorio o un archivo
+/* Un arbol con un atributo mas que identifica si es un directorio o un archivo (atributo nodeType)
  * es una modificacion de: https://stackoverflow.com/a/40622616/1005607
 */
 
