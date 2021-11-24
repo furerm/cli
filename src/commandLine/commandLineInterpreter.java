@@ -19,7 +19,7 @@ public class commandLineInterpreter {
 	
 	private int executeCmd(String cmd, String[] tokens){
         int err = 0;
-		tokens = cmd.split("\\s+");
+	tokens = cmd.split("\\s+");
         switch (tokens[0]) {
         case "pwd":
         	//System.out.println("pwd");
